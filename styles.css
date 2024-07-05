@@ -1,5 +1,8 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,7 +25,7 @@ header {
 
 .logo {
     font-size: 1.5rem;
-    font-weight: bold;
+    font-family: 'Lobster', cursive;
 }
 
 .nav-links {
@@ -103,32 +106,4 @@ main {
 }
 
 .btn:hover {
-    background-color: #555;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-.team {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 2rem;
-}
-
-.team-member {
-    text-align: center;
-}
-
-.team-member img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-}
+    background
